@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --background: lightgray;
+    --Cream: #F3EDE7;
+    --Cream-White: #FAF8F6;
+    --Dark-Blue: #172339;
+    --Grey: #49566D;
+    --gradient: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
+
+    --Font-Family: 'Epilogue', sans-serif;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--Font-Family);
+    background-color: var(--background);
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style-mobile.css">
+  <link rel="stylesheet" href="style-tablet.css" media="screen and (min-width: 768px)">
+  <link rel="stylesheet" href="style-desktop.css" media="screen and (min-width: 1440px)">
+  
+  <title>Frontend Mentor | Suite landing page</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <img src="./assets/logo.svg" alt="Suite Logo" class="logo">
+      <a href="#" class="btn-beta-access btn-header">Request Beta Access</a>
+    </header>
+    <main class="main-content">
+      <section class="hero-section">
+        <div class="hero-content">
+          <div class="hero-text">
+            <img src="assets/pattern-curved-line-1.svg" alt="image of curved line" class="pattern-curve-hero">
+            <h1 class="hero-title">A <span>super solution</span> for your <span>business.</span></h1>
+            <p class="hero-description">
+              Our marketing and sales automations help you scale your outreach to
+              get more leads for your company.
+            </p>
+            <a href="#" class="btn-beta-access btn-hero">Request Beta Access</a>
+          </div>
+          <picture class="hero-image">
+            <source media="(min-width: 768px)" srcset="assets/image-hero-portrait.webp">
+            <source media="(max-width: 767px )" srcset="assets/image-hero-landscape.webp">
+            <source media="(min-width: 768px)" srcset="assets/image-hero-portrait.png">
+            <img src="assets/image-hero-landscape.png" alt="" width="" height="auto">
+          </picture>
+        </div>
+        <article class="stats">
+          <div class="stat stat-companies">
+            <h2 class="stat-value">2K+</h2>
+            <span class="stat-label">COMPANIES</span>
+          </div>
+          <div class="stat stat-languages">
+            <h2 class="stat-value">8</h2>
+            <p class="stat-label">LANGUAGES</p>
+          </div>
+          <div class="stat stat-leads">
+            <h2 class="stat-value">1.2M</h2>
+            <p class="stat-label">LEADS</p>
+          </div>
+        </article>
+      </section>
+      <section class="testimonial-section">
+        <div class="testimonial-photo">
+          <img src="assets/pattern-blur.svg" alt="image of purple blur pattern" class="pattern-blur">
+          <picture class="testimonial-image">
+            <source media="(min-width: 1440px)" srcset="assets/image-jeremy-large.webp">
+            <source media="(max-width: 1439px)" srcset="assets/image-jeremy-small.webp">
+            <source media="(min-width:1440px )" srcset="assets/image-jeremy-large.png">
+            <img src="assets/image-jeremy-small.png" alt="">
+          </picture>
+        </div>
+        <img src="assets/pattern-curved-line-2.svg" alt="image of curved line" class="pattern-curve-testimonial">
+        <div class="testimonial-text">
+          <h2 class="testimonial-title">It just <span>works.</span></h2>
+          <p class="testimonial-quote">
+            “I really like how it is an all-in-one solution that handle many of
+            the tasks that you would normally need separate tools to do the same
+            job. This thing is a miracle worker.”
+          </p>
+          <p class="testimonial-author">JEREMY ROBINSON</p>
+          <p class="testimonial-role">CMO, FYLO</p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <img src="assets/logo.svg" alt="Suite Logo" class="logo">
+      <p class="copyright">Copyright - Suite</p>
+      <nav class="social-links" aria-label="Redes sociais">
+        <a href="#" class="social-link"><img src="assets/icon-facebook.svg" alt="Facebook"></a>
+        <a href="#" class="social-link"><img src="assets/icon-twitter.svg" alt="Twitter"></a>
+        <a href="#" class="social-link"><img src="assets/icon-instagram.svg" alt="Instagram"></a>
+      </nav>
+    </footer>
+  </div>
+</body>
+</html>
