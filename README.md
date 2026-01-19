@@ -33,6 +33,14 @@ Uma landing page moderna e responsiva desenvolvida para a plataforma "Suite", fo
 * **Semântica HTML5:** Uso correto de tags para melhor SEO e acessibilidade.
 * **Interatividade:** Efeitos de estado (hover/focus) nos botões e links.
 
+## 🚀 Meu Processo
+
+**O que aprendi e do que me orgulho**
+Estou muito satisfeito com o resultado geral deste projeto, especialmente por ter sido a minha primeira experiência prática utilizando **CSS Grid Layout** em um desafio do Frontend Mentor. A forma como o Grid facilitou a estruturação do layout foi um grande aprendizado e um marco na minha evolução como desenvolvedor.
+
+**Desafios enfrentados**
+Meu maior desafio técnico foi lidar com a **sobreposição de imagens** e elementos que transbordam os limites dos containers (*overflow*). Gerenciar o posicionamento absoluto de elementos decorativos enquanto mantinha a responsividade foi complexo. Superei isso utilizando uma combinação de `position: relative` nos containers pais e ajustes de `z-index`, embora reconheça que ainda posso otimizar essa lógica.
+
 ## 🛠️ Tecnologias Utilizadas
 
 * **HTML5** - Estrutura e conteúdo.
