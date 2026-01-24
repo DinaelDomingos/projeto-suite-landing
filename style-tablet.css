@@ -8,8 +8,8 @@
 
 .header {
     width: 89.585%;
-    padding-top: 2.5rem;
-    padding-bottom: 5rem;
+    padding-block-start: 2.5rem;
+    padding-block-end: 5rem;
 }
 
 .btn-header {
@@ -48,7 +48,7 @@
     margin-top: 2.5rem;
     margin-bottom: 1rem;
     width: 53%;   
-    left: 235px;
+    inset-inline-start: 235px;
 }
 
 .hero-title {
@@ -86,20 +86,20 @@
 
 .pattern-blur {
     width: 38%;
-    left: 15.5625rem;
+    inset-inline-start: 15.5625rem;
 }
 
 .testimonial-image {
     top: -11.3125rem;
-    left: 15.5rem;
+    inset-inline-start: 15.5rem;
 }
 
 .pattern-curve-testimonial {
-    left: 15.5625rem;
+    inset-inline-start: 15.5625rem;
 }
 
 .testimonial-text {
-    padding-top: 23.125rem;
+    padding-block-start: 23.125rem;
 }
 
 .testimonial-quote {

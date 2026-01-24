@@ -14,8 +14,8 @@
     align-items: center;
     width: 91.45%;
     margin: auto;
-    padding-top: 1.5rem;
-    padding-bottom: 3.5rem;
+    padding-block-start: 1.5rem;
+    padding-block-end: 3.5rem;
 }
 
 .btn-beta-access {
@@ -57,7 +57,7 @@
 .pattern-curve-hero {
     width: 44.25%;
     position: relative;
-    left: 9.625rem;
+    inset-inline-start: 9.625rem;
     margin-bottom: 0.5rem;
 }
 
@@ -150,25 +150,25 @@
 .pattern-blur {
     width: 50%;
     position: absolute;
-    left: 5.315rem;
+    inset-inline-start: 5.315rem;
 }
 
 .testimonial-image {
     position: absolute;
     top: -11.3125rem;
-    left: 4.1375rem;
+    inset-inline-start: 4.1375rem;
 }
 
 .pattern-curve-testimonial {
     width: 13.15%;
     position: absolute;
     top: 16.3125rem;
-    left: 10.1875rem;
+    inset-inline-start: 10.1875rem;
 }
 
 .testimonial-text {
-    padding-top: 21.125rem;
-    padding-bottom: 4rem;
+    padding-block-start: 21.125rem;
+    padding-block-end: 4rem;
     text-align: center;
 }
 
