@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 .container {
-    max-width: 23.4375rem;
+    max-width: 23.5rem;
     margin: auto;
     background: var(--Cream-White, #FAF8F6);
 }
