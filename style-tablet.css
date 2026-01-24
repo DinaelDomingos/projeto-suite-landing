@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 .container {
-    max-width: 768px;
+    max-width: 48rem;
 }
 
 /* Header Styles */
@@ -86,16 +86,16 @@
 
 .pattern-blur {
     width: 38%;
-    left: 249px;
+    left: 15.5625rem;
 }
 
 .testimonial-image {
-    top: -181px;
-    left: 248px;
+    top: -11.3125rem;
+    left: 15.5rem;
 }
 
 .pattern-curve-testimonial {
-    left: 294px;
+    left: 15.5625rem;
 }
 
 .testimonial-text {
@@ -110,7 +110,7 @@
 
 .footer {
     position: absolute;
-    top: 1330px;
+    top: 83.125rem;
     padding: 36.5rem 2.5rem 5rem 2.5rem;
     flex-direction: row;
     justify-content: space-between;

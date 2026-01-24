@@ -2,7 +2,7 @@
 /* CSS Document */
 
 .container {
-    max-width: 1440px;
+    max-width: 90rem;
 }
 
 /* Header Styles */
@@ -29,7 +29,7 @@
 .pattern-curve-hero {
     margin-top: 2.875rem;
     width: 60%;
-    left: 310px;
+    left: 19.375rem;
 }
 
 .hero-title {
@@ -68,20 +68,20 @@
 
 .pattern-blur {
     width: 69.5%;
-    left: 142px;
-    bottom: 41px;
+    left: 8.875rem;
+    bottom: 2.5625rem;
 }
 
 .testimonial-image {
-    top: -68px;
-    left: 121px;
+    top: -4.25rem;
+    left: 7.5625rem;
     bottom: 0;
 }
 
 .pattern-curve-testimonial {
     position: relative;
-    top: 158px;
-    left: 249px;
+    top: 9.875rem;
+    left: 15.5625rem;
     width: 5.8%;
     height: 100%;
 }
@@ -108,7 +108,7 @@
 /* Footer Styles */
 
 .footer {
-    top: 1230px;
+    top: 76.875rem;
     padding: 24.5rem 10.25rem 5rem 10.25rem;
     gap: 24.25rem;
 }

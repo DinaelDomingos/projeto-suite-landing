@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 .container {
-    max-width: 375px;
+    max-width: 23.4375rem;
     margin: auto;
     background: var(--Cream-White, #FAF8F6);
 }
@@ -40,6 +40,12 @@
     transition: all 0.3s ease-in-out;
 }
 
+@media (prefers-reduced-motion: reduce) {
+    .btn-header:hover {
+        transition: none;
+    }
+}
+
 /* Main Styles */
 /* Hero Section Styles */
 
@@ -51,7 +57,7 @@
 .pattern-curve-hero {
     width: 44.25%;
     position: relative;
-    left: 154px;
+    left: 9.625rem;
     margin-bottom: 0.5rem;
 }
 
@@ -93,6 +99,12 @@
 .btn-hero:hover {
     background: var(--gradient);
     transition: all 0.3s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .btn-hero:hover {
+        transition: none;
+    }
 }
 
 .stats {
@@ -138,20 +150,20 @@
 .pattern-blur {
     width: 50%;
     position: absolute;
-    left: 85px;
+    left: 5.315rem;
 }
 
 .testimonial-image {
     position: absolute;
-    top: -181px;
-    left: 71px;
+    top: -11.3125rem;
+    left: 4.1375rem;
 }
 
 .pattern-curve-testimonial {
     width: 13.15%;
     position: absolute;
-    top: 261px;
-    left: 163px;
+    top: 16.3125rem;
+    left: 10.1875rem;
 }
 
 .testimonial-text {
