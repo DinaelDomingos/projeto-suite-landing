@@ -29,7 +29,7 @@
     font-weight: 700;
     color: var(--Dark-Blue, #172339);
     line-height: 1.5rem;
-    letter-spacing: -0.14px;
+    letter-spacing: -0.01em;
     text-decoration: none;
     background: transparent;
 }
@@ -66,7 +66,7 @@
     font-weight: 400;
     line-height: 2.75rem;
     color: var(--Dark-Blue, #172339);
-    letter-spacing: -0.528px;
+    letter-spacing: -0.033em;
 }
 
 .hero-title span {
@@ -78,7 +78,7 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.75rem;
-    letter-spacing: 0.089px;
+    letter-spacing: 0.0055625em;
     color: var(--Grey, #49566D);
 }
 
@@ -89,7 +89,7 @@
     font-size: 1.125rem;
     font-weight: 700;
     line-height: 2rem;
-    letter-spacing: -0.18px;
+    letter-spacing: -0.01125em;
     color: var(--Cream-White, #FAF8F6);
     text-decoration: none;
     background: var(--Dark-Blue, #172339);
@@ -131,7 +131,7 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.625rem;
-    letter-spacing: 2.5px;
+    letter-spacing: 0.15625em;
     color: var(--Grey, #49566D);
 }
 
@@ -178,7 +178,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 3rem;
-    letter-spacing: -0.417px;
+    letter-spacing: -0.0260625em;
 }
 
 .testimonial-title span {
@@ -193,7 +193,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 2rem;
-    letter-spacing: 0.09px;
+    letter-spacing: 0.005625em;
 }
 
 .testimonial-author {
@@ -202,7 +202,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 2rem;
-    letter-spacing: -0.18px;
+    letter-spacing: -0.01125em;
 }
 
 .testimonial-role {
@@ -211,7 +211,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 1.625rem;
-    letter-spacing: 2.5px;
+    letter-spacing: 0.15625em;
 }
 
 /* Footer Styles */
@@ -233,7 +233,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 2rem;
-    letter-spacing: 0.083px;
+    letter-spacing: 0.0051875em;
 }
 
 .social-links {
